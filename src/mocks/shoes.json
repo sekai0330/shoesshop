@@ -1,0 +1,85 @@
+{
+    "shoes": [
+        {
+            "id":1,
+            "name": "shoes 1",
+            "rating":4.92,
+            "price":25,
+            "category": "tenis",
+            "genre": "children",
+            "image": "shoe1"
+        },
+        {
+            "id":2,
+            "name": "shoes 2",
+            "rating":3.65,
+            "price":40,
+            "category": "casual",
+            "genre": "children",
+            "image": "shoe2"
+        },
+        {
+            "id":3,
+            "name": "shoes 3",
+            "rating":4.51,
+            "price":56,
+            "category": "formal",
+            "genre": "children",
+            "image": "shoe3"
+        },
+        {
+            "id":4,
+            "name": "shoes 4",
+            "rating":4.22,
+            "price":78,
+            "category": "tenis",
+            "genre": "mujer",
+            "image": "shoes4"
+        },
+        {
+            "id":5,
+            "name": "shoes 5",
+            "rating":3.92,
+            "price":64,
+            "category": "casual",
+            "genre": "mujer",
+            "image": "shoes5"
+        },
+        {
+            "id":6,
+            "name": "shoes 6",
+            "rating":3.52,
+            "price":80,
+            "category": "formal",
+            "genre": "mujer",
+            "image": "shoes6"
+        },
+        {
+            "id":7,
+            "name": "shoes 7",
+            "rating":4.95,
+            "price":95,
+            "category": "tenis",
+            "genre": "hombre",
+            "image": "shoes7"
+        },
+        {
+            "id":8,
+            "name": "shoes 8",
+            "rating":4.15,
+            "price":72,
+            "category": "casual",
+            "genre": "hombre",
+            "image": "shoes8"
+        },
+        {
+            "id":9,
+            "name": "shoes 9",
+            "rating":4.92,
+            "price":99,
+            "category": "formal",
+            "genre": "hombre",
+            "image": "shoes9"
+        }    
+    ]
+}
