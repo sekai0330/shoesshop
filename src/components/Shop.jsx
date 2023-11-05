@@ -13,7 +13,7 @@ export function Shop () {
                     <div className="w-full md:w-1/4 bg-white py-5 rounded-lg border">
                         <Filters />
                     </div>
-                    <div className="md:w-3/4">
+                    <div className="w-full md:w-3/4">
                         <ShoesList shoes = {filteredShoes} />
                     </div>
                 </div>
