@@ -25,7 +25,7 @@ export function Footer () {
     return (
         <footer className="bg-red-950">
             <section className="max-w-screen-xl mx-auto md:w-5/6 px-3 md:px-0 flex flex-col md:text-left text-center md:flex-row items-center md:items-start md:justify-between py-10 space-y-5 md:space-y-0">
-                <div className="flex flex-col w-1/3">
+                <div className="flex flex-col items-center md:items-start md:w-1/3">
                     <a href='#inicio' className="flex gap-1 items-center pl-0">
                         <img src="/logo.svg" width={35} height={55} alt="Logo EdwinSantos" />
                         <p className='text-white text-lg font-black uppercase'>Shoes<span className="text-xs capitalize">Shop</span></p>

@@ -18,14 +18,14 @@ export function Landing () {
     setCurrentImageIndex(index);
     };
 
-    const whatsappNumber = '75957780';
+    const whatsappNumber = '75331045';
     const message = `¡Hola! Estoy interesado en el producto Catalogo Digital.`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     return (
         <section className=" flex items-center bg-gradient-to-br from-white via-red-100 to-white">
-            <div className="mx-auto px-3 py-5 lg:py-0 lg:px-0 lg:w-5/6 max-w-screen-xl flex flex-col md:flex-row gap-10 items-center justify-between">
-                <div className="md:w-2/5 flex flex-col">
+            <div className="mx-auto px-3 py-5 lg:py-0 lg:px-0 lg:w-5/6 max-w-screen-xl flex flex-col md:flex-row gap-10 items-center text-center md:text-left justify-between">
+                <div className="md:w-2/5 flex items-center md:items-start flex-col">
                     <p className="text-base lg:text-xl font-serif">Toma el camino alto y sube más alto</p>
                     <h1 className="text-3xl lg:text-5xl font-black [text-wrap:balance]">Haz Un Buen Viaje <span className="text-red-600">Con Zapatos</span></h1>
                     <div className="flex">
