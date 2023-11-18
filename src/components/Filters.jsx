@@ -44,7 +44,8 @@ export function Filters () {
                 <label htmlFor={genreFilterId} className="font-semibold">Categoria:</label>
                 <select id={genreFilterId} className="rounded px-1 border p-1 text-center" onChange={handleChangeGenre}>
                     <option value="all">Todas</option>
-                    <option value="children">Niños</option>
+                    <option value="chico">Niños</option>
+                    <option value="chica">Niñas</option>
                     <option value="mujer">Damas</option>
                     <option value="hombre">Caballeros</option>
                 </select>

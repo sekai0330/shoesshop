@@ -2,84 +2,328 @@
     "shoes": [
         {
             "id":1,
-            "name": "shoes 1",
+            "name": "casual negro",
             "rating":4.92,
             "price":25,
-            "category": "tenis",
-            "genre": "children",
-            "image": "shoe1"
+            "category": "casual",
+            "genre": "hombre",
+            "image": "casual_hombre_2"
         },
         {
             "id":2,
-            "name": "shoes 2",
+            "name": "casual cafe",
             "rating":3.65,
             "price":40,
             "category": "casual",
-            "genre": "children",
-            "image": "shoe2"
+            "genre": "hombre",
+            "image": "casual_hombre_3"
         },
         {
             "id":3,
-            "name": "shoes 3",
+            "name": "casual oxford",
             "rating":4.51,
             "price":56,
-            "category": "formal",
-            "genre": "children",
-            "image": "shoe3"
+            "category": "casual",
+            "genre": "hombre",
+            "image": "casual_hombre_oxford_1"
         },
         {
             "id":4,
-            "name": "shoes 4",
+            "name": "casual negro mujer",
             "rating":4.22,
             "price":78,
-            "category": "tenis",
+            "category": "casual",
             "genre": "mujer",
-            "image": "shoes4"
+            "image": "casual_mujeres_1"
         },
         {
             "id":5,
-            "name": "shoes 5",
-            "rating":3.92,
+            "name": "Zapato casual blanco",
+            "rating":4.92,
             "price":64,
             "category": "casual",
             "genre": "mujer",
-            "image": "shoes5"
+            "image": "casual_mujeres_2"
         },
         {
             "id":6,
-            "name": "shoes 6",
+            "name": "Casual blanco con cafe",
             "rating":3.52,
             "price":80,
-            "category": "formal",
+            "category": "casual",
             "genre": "mujer",
-            "image": "shoes6"
+            "image": "casual_mujeres_3"
         },
         {
             "id":7,
-            "name": "shoes 7",
+            "name": "Casual Hercules",
             "rating":4.95,
             "price":95,
-            "category": "tenis",
-            "genre": "hombre",
-            "image": "shoes7"
+            "category": "casual",
+            "genre": "chica",
+            "image": "casual_niñas_hercules_3"
         },
         {
             "id":8,
-            "name": "shoes 8",
+            "name": "nike",
             "rating":4.15,
             "price":72,
             "category": "casual",
-            "genre": "hombre",
-            "image": "shoes8"
+            "genre": "chica",
+            "image": "casual_niñas_nike_2"
         },
         {
             "id":9,
-            "name": "shoes 9",
+            "name": "urbana stickers",
             "rating":4.92,
             "price":99,
-            "category": "formal",
+            "category": "casual",
+            "genre": "chica",
+            "image": "casual_niñas_urbanastickers_1"
+        },   
+        {
+            "id":10,
+            "name": "color beige",
+            "rating":4.92,
+            "price":99,
+            "category": "casual",
+            "genre": "chico",
+            "image": "casual_niños_1"
+        },  
+        {
+            "id":11,
+            "name": "Hushpuppies ",
+            "rating":4.92,
+            "price":99,
+            "category": "casual",
+            "genre": "chico",
+            "image": "casual_niños_Hushpuppies_2"
+        },    
+        {
+            "id":12,
+            "name": "color blanco ",
+            "rating":4.92,
+            "price":99,
+            "category": "casual",
+            "genre": "chico",
+            "image": "casual_niños_klin_3"
+        },   
+        {
+            "id":13,
+            "name": "color negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
             "genre": "hombre",
-            "image": "shoes9"
-        }    
+            "image": "formales_hombres_1"
+        },  
+        {
+            "id":14,
+            "name": "color negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "hombre",
+            "image": "formales_hombres_3"
+        },    
+        {
+            "id":15,
+            "name": "charol blanco y negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "hombre",
+            "image": "formales_hombres_oxford_2"
+        },   
+        {
+            "id":16,
+            "name": "color negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "mujer",
+            "image": "formales_mujeres_1"
+        },    
+        {
+            "id":17,
+            "name": "medio tacon negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "mujer",
+            "image": "formales_mujeres_2"
+        },   
+        {
+            "id":18,
+            "name": "color negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "mujer",
+            "image": "formales_mujeres_3"
+        }, 
+        {
+            "id":19,
+            "name": "charol negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "chica",
+            "image": "formales_niña_3"
+        },     
+        {
+            "id":20,
+            "name": "charol negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "chica",
+            "image": "formales_niña_charol_2"
+        },    
+        {
+            "id":21,
+            "name": "marfil-stund negros",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "chica",
+            "image": "formales_niña_marfilstunt_1"
+        },     
+        {
+            "id":22,
+            "name": "color negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "chico",
+            "image": "formales_niño_2" 
+        },    
+        {
+            "id":23,
+            "name": "casual negro",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "chico",
+            "image": "formales_niño_3"
+        },         
+        {
+            "id":24,
+            "name": "marfil-stunt",
+            "rating":4.92,
+            "price":99,
+            "category": "formales",
+            "genre": "chico",
+            "image": "formales_niño_marfilstunt_1"
+        },    
+        {
+            "id":25,
+            "name": "court-vision",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "hombre",
+            "image": "tenis_hombre_court-vision_2"
+        },         
+        {
+            "id":26,
+            "name": "louis-vuitton",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "hombre",
+            "image": "tenis_hombre_louisvuitton_3"
+        }, 
+        {
+            "id":27,
+            "name": "nike",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "hombre",
+            "image": "tenis_hombre_nike_1"
+        }, 
+        {
+            "id":28,
+            "name": "fly-Ease",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "mujer",
+            "image": "tenis_mujer_flyEase_3"
+        },   
+        {
+            "id":29,
+            "name": "nike",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "mujer",
+            "image": "tenis_mujer_nike_2"
+        },  
+        {
+            "id":30,
+            "name": "bubble-gummers",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "chica",
+            "image": "tenis_niñas_bubblegummers_1"
+        },   
+        {
+            "id":31,
+            "name": "nike-tanjun",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "mujer",
+            "image": "tenis_mujer_nike_tanjun_1"
+        },
+        {
+            "id":32,
+            "name": "klin",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "chica",
+            "image": "tenis_niñas_klin_2"
+        },          
+        {
+            "id":33,
+            "name": "nike",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "chica",
+            "image": "tenis_niñas_nikeus_3"
+        },          
+        {
+            "id":34,
+            "name": "adidas",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "chico",
+            "image": "tenis_niños_adidas_1"
+        },         
+        {
+            "id":35,
+            "name": "tenis blancos ch",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "chico",
+            "image": "tenis_niños_extrafull_2"
+        }, 
+        {
+            "id":36,
+            "name": "nike-dunklow",
+            "rating":4.92,
+            "price":99,
+            "category": "tenis",
+            "genre": "chico",
+            "image": "tenis_niños_nikedunklow_3"
+        }             
+
     ]
 }
