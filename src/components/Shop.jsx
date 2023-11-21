@@ -6,7 +6,7 @@ export function Shop () {
     const { filteredShoes } = useFilters()
 
     return (
-        <section className="bg-slate-100">
+        <section id="comprar" className="bg-slate-100">
             <div className="mx-auto px-3 lg:px-0 lg:w-5/6 max-w-screen-xl py-20">
                 <h2 className="text-center font-bold uppercase text-4xl pb-10">Comprar Ahora</h2>
                 <div className="flex flex-col md:flex-row items-start gap-3 md:gap-3 lg:gap-5">

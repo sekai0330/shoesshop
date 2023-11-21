@@ -1,23 +1,21 @@
-const enlaces = [
+const redes = [
     {
         id:1,
-        name: "Tienda",
-        link: "tienda"
+        name: "Facebook",
+        link: "https://www.facebook.com/",
+        image: "facebook"
     },
     {
         id:2,
-        name: "Nosotros",
-        link: "nosotros"
+        name: "Instagram",
+        link: "https://www.instagram.com/",
+        image: "instagram"
     },
     {
         id:3,
-        name: "Contacto",
-        link: "contacto"
-    },
-    {
-        id:3,
-        name: "Nuevo",
-        link: "nuevo"
+        name: "TikTok",
+        link: "https://www.tiktok.com/",
+        image: "tiktok"
     }
 ]
 
@@ -35,20 +33,29 @@ export function Footer () {
                 <div className="flex flex-col">
                     <h3 className="text-white text-lg font-bold uppercase">Navegacion</h3>
                     <ul className="md:flex flex-col gap-2 text-white mt-2">
-                        {enlaces.map(links => (
-                            <li key={links.id}>
-                                <a href={links.link} className="hover:text-red-200">
-                                    {links.name}
+                        {redes.map(red => (
+                            <li key={red.id} className="flex items-center justify-center md:justify-start">
+                                <a href={red.link} className="flex items-center gap-1">
+                                    <img src={`/img/${red.image}.svg`} alt={`Logo de ${red.name}`} className="w-5 h-5"/>
+                                    <p className="text-white>">{red.name}</p>
                                 </a>
                             </li>
                         ))}
                     </ul>
                 </div>
                 <div className="flex flex-col">
-                    <h3 className="text-white text-lg font-bold uppercase">contactos</h3>
+                    <h3 className=" text-white text-lg font-black uppercase">Metodos de Pago</h3>
                     <div className="mt-2">
-                        <p className="text-white font-bold">Correo Electronico:</p>
-                        <p className="text-white text-sm">edwin98santos@gmail.com</p>
+                        <p className="text-white font-bold">Transferencias:</p>
+                        <p className="text-white text-sm">Logo Bancos</p>
+                    </div>
+                    <div className="mt-2">
+                        <p className="text-white font-bold">Cryptomonedas:</p>
+                        <p className="text-white text-sm">Logo exchange, chivo wallet</p>
+                    </div>
+                    <div className="mt-2">
+                        <p className="text-white font-bold">Paypal:</p>
+                        <p className="text-white text-sm">Logo Paypal</p>
                     </div>
                 </div>
             </section>

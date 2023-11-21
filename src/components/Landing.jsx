@@ -18,9 +18,9 @@ export function Landing () {
     setCurrentImageIndex(index);
     };
 
-    const whatsappNumber = '75331045';
-    const message = `¡Hola! Estoy interesado en el producto Catalogo Digital.`;
-    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    // const whatsappNumber = '75331045';
+    // const message = `¡Hola! Estoy interesado en el producto Catalogo Digital.`;
+    // const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     return (
         <section className=" flex items-center bg-gradient-to-br from-white via-red-100 to-white">
@@ -29,7 +29,7 @@ export function Landing () {
                     <p className="text-base lg:text-xl font-serif">Toma el camino alto y sube más alto</p>
                     <h1 className="text-3xl lg:text-5xl font-black [text-wrap:balance]">Haz Un Buen Viaje <span className="text-red-600">Con Zapatos</span></h1>
                     <div className="flex">
-                        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-red-600 text-white font-bold py-2 px-10 rounded-full mt-5 flex items-center gap-1">Comprar ahora
+                        <a href="#comprar" className="bg-red-600 text-white font-bold py-2 px-10 rounded-full mt-5 flex items-center gap-1">Comprar ahora
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                             </svg>
